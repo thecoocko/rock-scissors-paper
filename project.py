@@ -30,7 +30,6 @@ def game(player1,player2):
 
 
 
-
 if __name__=="__main__":
     p1 = int(input('Player one: '))
     p2 = int(input('Player two: '))
