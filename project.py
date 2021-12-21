@@ -3,24 +3,7 @@ def game(player1,player2):
     winner = ''
     flag = True
     while flag:
-        if player1==values[0] and player2==values[1]:
-            winner = f"{player2} wins"
-            flag = False 
-        elif player1==values[0] and player2==values[2]:
-            winner = f"{player1} wins"
-            flag = False 
-        elif player1==values[1] and player2==values[0]:
-            winner = f"{player2} wins"
-            flag = False 
-        elif player1==values[1] and player2==values[2]:
-            winner = f"{player2} wins"
-            flag = False 
-        elif player1==values[2] and player2==values[0]:
-            winner = f"{player2} wins"
-            flag = False 
-        elif player1==values[2] and player2==values[1]:
-            winner = f"{player2} wins"
-            flag = False 
+        pass
     return winner
 
 
